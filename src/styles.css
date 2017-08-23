@@ -1,0 +1,14 @@
+.image {
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+}
+
+.r2, .r3 {
+  /* Items in Row 2 */
+  position: relative;
+  top: 300px;
+  opacity: 0;
+}
