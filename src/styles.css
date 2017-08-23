@@ -12,3 +12,21 @@
   top: 300px;
   opacity: 0;
 }
+
+.jumbotron, .navbar{
+  border: none !important;
+  background: rgba(0,0,0,0) !important;
+  box-shadow: none !important;
+}
+.hero {
+  background: rgba(0,0,0,.4);
+}
+.bkgd {
+  content: "";
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./components/development/dev.jpg");
+  background-position: center center;
+  z-index: -1;
+}
