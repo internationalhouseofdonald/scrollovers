@@ -3,9 +3,15 @@ import './styles.scss';
 import video from './components/development/bham.mp4';
 
 $(document).ready(function() {
+  $( window ).resize(function() {
+    var width = document.body.clientWidth;
+    var is_sm = false;
+    if (width >= 559) {
+      is_sm = true;
+    }
+  });
   $(document).on("scroll", function() {
     var pos_y = window.scrollY;
-    console.log(pos_y);
     if (pos_y >= 1) {
       $('.r2').animate({
         opacity: 1,
